@@ -18,6 +18,13 @@
     "url": "https://github.com/mitru0217/resume/issues"
   },
   "homepage": "https://github.com/mitru0217/resume",
-  
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
