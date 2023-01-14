@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /resume/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitru0217/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitru0217/resume/issues"
+  },
+  "homepage": "https://github.com/mitru0217/resume",
+  
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
