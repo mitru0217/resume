@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /resume/"
+    "build": "parcel build src/*.html --public-url /resume/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "posthtml-include": "^1.7.4"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "modern-normalize": "^1.1.0"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
