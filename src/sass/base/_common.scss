@@ -1,5 +1,8 @@
 html {
-    margin: 0;  
+    margin: 0;
+    @media print {
+       height: 100%;
+    }   
 }
 
 body {
