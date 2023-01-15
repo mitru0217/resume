@@ -1,0 +1,33 @@
+
+.header {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/banner-909710_640.jpg');
+
+    @media ( min-width: 768px) {
+        background-image: url('../images/banner-909710_1280.jpg'); 
+    }
+    @media (min-width: 1200px) {
+        background-image: url('../images/banner-909710_1920.jpg');
+}
+}
+
+.header-photo {
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    border-radius: 50%;
+   display: block;
+   @media screen and (min-width:768px){
+    right: 35%;
+   }
+   @media screen and (min-width:1200px){
+    right: 42%;
+}
+}
+
+
