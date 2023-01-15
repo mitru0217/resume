@@ -7,6 +7,9 @@
     background-position: center;
     background-size: cover;
     background-image: url('../images/banner-909710_640.jpg');
+    @media print {
+        background-image: url('../images/banner-909710_640.jpg');
+    }
 
     @media ( min-width: 768px) {
         background-image: url('../images/banner-909710_1280.jpg'); 
