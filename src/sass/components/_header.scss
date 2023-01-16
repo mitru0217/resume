@@ -21,14 +21,20 @@
 
 .header-photo {
     position: absolute;
-    top: 4%;
+    top: 20px;
     right: 10%;
     border-radius: 50%;
    display: block;
+   @media print {
+    top: 20px;
+    right: 40%;
+}
+
    @media screen and (min-width:768px){
     right: 35%;
    }
    @media screen and (min-width:1200px){
+    top: 20px;
     right: 42%;
 }
 }
