@@ -1,4 +1,6 @@
-
+.section {
+    margin-bottom: 16px;
+}
 .hero-main-title {
     display: block;
     text-align: center;
@@ -56,7 +58,7 @@
 }
 .aside-item {
     display: flex;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
 }
 .experience{
     padding-bottom: 8px;
@@ -64,27 +66,31 @@
 .item-bold {
     font-weight: 700;
 }
-.lang-exp {
-    padding-left: 16px;
-}
-.lang-exp-u {
-    padding-left: 5px; 
-}
 .tech-skills{
     display: flex;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.list-tech-skills {
+.list {
     padding-right: 16px;
+    padding-left: 12px;
+    list-style: disc;
+   
 }
 .hero-about {
     padding-top: 8px;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
-.item-tech-skills {
+.item {
     padding-top: 8px;
 }
+.lang {
+width: 200px;
+    display: flex;
+   justify-content: space-between;
+}
+
+
 .title {
     padding-top: 16px;
 }
@@ -109,10 +115,12 @@
     flex-direction: column;
     gap: 4px;
 }
-.project-link {
-    display: inline-block;
-    width: 100%;
+.box-link{
+    display: flex;
+    gap: 16px;
+
 }
+
 .project-name {
     display: inline-block;
 }
